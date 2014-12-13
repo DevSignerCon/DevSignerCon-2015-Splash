@@ -1,0 +1,206 @@
+/* 
+
+Edits to Devsignercon.com
+
+*/
+/* 
+COLORS
+
+primary-color or navy: rgba(1, 34, 51);
+secondary-color or green: rgba(138, 181, 19);
+tertiary-color or pink: rgba(181,19,138); 
+neutral-color blue: rgba(181,19,138);
+
+*/
+@font-face{ font-family: 'Miso Regular'; src: url('../fonts/miso-regular-webfont.eot'); src: url('../fonts/miso-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-regular-webfont.woff') format('woff'), url('../fonts/miso-regular-webfont.ttf') format('truetype'), url('../fonts/miso-regular-webfont.svg#webfont') format('svg'); }
+
+/* Header: z-header ; zone; */
+
+.z-header {
+  background-color: #012233;
+}
+
+.z-header .w-header { 
+  padding: 0 0 27px 0;
+}
+
+.site-name a:link,
+.site-name a:visited {
+    color: #FFF;
+}
+
+.z-header .w-navigation { 
+  border-bottom: 4px solid #929292;
+  border-top: none ;
+  margin: 0;
+}
+/* END HEADER */
+
+/* Content: z-content; icon buttons typography; sponsors; user-profiles */
+
+/* z-content */
+.z-content {
+	border-bottom-color: 4px solid #929292;
+}
+/* end z-content; */
+
+/* icon buttons */
+
+.hex {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-bottom: none;
+	display: inline-block;
+	float: left;
+	height: 50px;
+	margin: 0.5em 1em 1em 0;
+	opacity: 0.8;
+	text-indent: -9999px;
+	width: 50px;
+}
+.hex:hover {
+	border-bottom: none;
+	opacity: 1.0;
+}
+.drupal { background-image: url("../img/icons/drupal.png"); }
+.google-plus { background-image: url("../img/icons/google-plus.png"); }
+.facebook { background-image: url("../img/icons/facebook.png"); }
+.twitter { background-image: url("../img/icons/twitter.png"); }
+.linked-in { background-image: url("../img/icons/linked-in-alt.png");}
+
+.hex:last-child {
+	margin-right: 0;
+}
+
+/* end icon buttons */
+
+/* typography; */
+.green {
+	color: #8AB513 !important;
+}
+
+h4.green {
+	margin: 0;
+}
+/* end typography; */
+
+/* sponsors; */
+.sponsors {
+	background-color: #012233;
+	color: white;
+	padding: 3em 2em;
+	max-width: 1900px;
+	width: 100%;
+	overflow-x: scroll;
+}
+
+.sponsors .row {
+	float: left;
+	display: inline-block;
+}
+
+.sponsors h2.first {
+	color: white;
+	margin-top: 10px;	
+}
+
+.sponsors h1 {
+	text-align: right;
+}
+
+.sponsors h1,
+.sponsors__platinum h2,
+.sponsors h3,
+.sponsors p,
+.sponsors ol,
+.sponsors ul {
+	color: #FFF;
+	margin-left: 0; 	
+}
+
+.sponsors .l-summary {
+	color: #FFF;
+	width: 20%; 
+}
+
+.sponsors .l-content {
+	border-bottom: none;
+    clear: right;
+    float: left;
+    margin-left: 20%;
+    margin-right: -100%;
+    padding-left: 5%;
+    width: 75%;
+}
+
+.sponsors .l-content ul li ul {
+	margin: 6px 0 12px 0;
+}
+
+.sponsors__platinum .l-content {
+	border-left-color: #8AB513; 
+	border-left-width: 8px; 
+	border-left-style: solid;
+}
+
+.sponsors__gold .l-content {
+	border-left-color: rgba(19, 138, 181, 1); 
+	border-left-width: 8px; 
+	border-left-style: solid;
+}
+
+.sponsors__bronze .l-content {
+	border-left-color: rgba(19, 138, 181, 0.7); 
+	border-left-width: 8px; 
+	border-left-style: solid;
+}
+
+.sponsors__community .l-content {
+	border-left-color: rgba(19, 138, 181, 0.4); 
+	border-left-width: 8px; 
+	border-left-style: solid;
+}
+/* end typography; */
+
+
+/* user-profiles */
+.user-profile {
+	float: left;
+    margin-right: 1%;
+    width: 30%;
+}
+
+.wrapper--user-picture {
+	float: left;
+	margin-right: 3%;
+	max-width: 150px;
+}
+.user-picture {
+    border-radius: 500px;
+    border: 8px solid #E2E2E2;
+    display: inline-block;
+    overflow: hidden;
+}
+.field--name-field-profile-first { text-align: center; }
+.user-picture a { border-bottom: none; }
+
+.wrapper--user-bio { display: inline-block; }
+.wrapper--user-bio h2 { margin-bottom: 0.5em; }
+.field--name-field-profile-social-media .field__item { display: inline-block;  border: none; }
+
+
+/* end user-profiles */
+/* END CONTENT */
+
+/* FOOTER: z-footer ; zone; */
+.z-footer {
+	background-color: #012233;
+    background-repeat: repeat-x;
+    border-top-color: #8AB513;
+    border-top-style: solid;
+    border-top-width: 4px;
+    color: #FFFFFF;
+    padding: 1.5em 12px;
+}
+
+/* END FOOTER */
