@@ -1,29 +1,7 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Devsigner is celebrating the cross-overs, the multi-disciplinarians, the coders who paint and the designers who send pull requests — and those who want to develop some new left-right brain skills.
 
-### What is this repository for? ###
+We’re looking for folks to break out of their familiar meetup silos and apply their knowledge across the crafts of development and design.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Join us at http://devsignercon.com/
