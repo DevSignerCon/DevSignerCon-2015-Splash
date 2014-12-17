@@ -90,6 +90,18 @@ neutral-color blue: rgba(181,19,138);
 }
 
 /* Style overrides for mobile */
+@media only screen and (max-width: 40.063em) {
+  /* Parallax causes more grief than it's worth on mobile */
+  .parallax-background {
+    position: static;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .parallax-content {
+    top: auto;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .top-bar {
     height: auto;
